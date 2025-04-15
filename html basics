@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p{
+            font-family:'Courier New', 'Courier', monospace;
+            background-color: black ;
+            font-size: xx-large;
+            font-weight: bold;
+            font-style: italic;
+            padding: 10px;/* Distance between the content and border*/
+            margin-left: 30px;/* Distance between the page and box*/
+            border: double red 20px;
+            display: flex;
+            justify-content: center;/* To display the contents in the center*/
+            align-items: center;    
+            height: 100vh;/* Viewport height*/
+        }
+    </style>
+</head>
+<body>
+   <p style="color:red;">
+
+        Hello world buddy
+    
+   </p>
+   <script>
+    //Internal  
+    console.log("Hello world");
+
+    // Alert box
+    alert("Have a good day");
+    
+    // Data types in java script
+    let my_var = "Hey there";
+    const con_var= "This is the constant for ever";
+    var Old_style= "Don't use me!"
+
+    // Printing the variables
+    console.log(my_var,"\n",con_var,"\n",Old_style,"\n"); 
+    
+    // Objects in javascript
+    let sample_obj= {
+        "Name":"VVCE",
+        "Address":"Mysore"
+    }
+    const con_obj= {
+        "Year of Independence":"1947"
+    }
+
+    // Printing them in console
+    console.log(sample_obj); //The whole object is printed
+    console.log(sample_obj.Name);// The particular instance will be printed
+    console.log(sample_obj['Address']);
+
+    // Functions in JS
+    function funname(parameters){
+        console.log("This is  function in JS")
+    }
+    function mod(num){
+        return num%2==0;
+    }
+
+    // Calling the function
+    funname();
+    console.log(mod(2));
+    console.log(mod(5));
+
+
+</script>
+</body>
+</html> 
